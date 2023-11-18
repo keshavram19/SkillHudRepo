@@ -1,0 +1,50 @@
+.main_container1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  /* background-color: red; */
+}
+.childContainer1 {
+  /* background-color: yellow; */
+  padding: 10px;
+  width: 100%;
+  height: 90vh;
+  margin: 20px auto;
+  /* max-width: fit-content; */
+}
+.textbox1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  /* background-color: blue; */
+  padding: 0px 40px;
+  width: 100%;
+  height: 50px;
+}
+.filterSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* width: 100%; */
+  padding: 0 60px;
+
+  /* background-color: green; */
+}
+.filterData {
+  display: flex;
+  flex-direction: row;
+}
+.createUser {
+  border: none;
+  padding: 10px 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #8c008a;
+  color: #fff;
+  font-weight: 550;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+}
